@@ -17,9 +17,8 @@ public class StringManipulator
 		System.out.println("Half of the string is " + lengthHalf + " letters long");
 		System.out.print("Enter a string to search for: ");
 		String stringSearch = keyboard.nextLine();
-		int stringSearchNum = Integer.parseInt(stringSearch);
-		char myChar = stringStr.charAt(stringSearchNum);
-		System.out.print("The requested string can be found at: " + stringSearchNum);
+		char myChar = stringSearch.charAt();
+		System.out.print("The requested string can be found at: " + myChar);
 		System.out.print("Please enter a start index for a substring: ");
 		String substringStartIndex = keyboard.nextLine();
 		int substringStart = Integer.parseInt(substringStartIndex);
